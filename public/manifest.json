@@ -1,0 +1,16 @@
+{
+  "name": "Grand Tropical Apartamento",
+  "short_name": "Grand Tropical",
+  "description": "Apartamento com 58m², 2 dormitórios à venda no Grand Tropical.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D1117",
+  "theme_color": "#0D1117",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
