@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://grandtropicalapartamento.com.br/sitemap.xml",
-    host: "https://grandtropicalapartamento.com.br",
+    sitemap: "https://https://apartamentoribeirao.site/sitemap.xml",
+    host: "https://apartamentoribeirao.site",
   };
 }
