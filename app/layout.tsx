@@ -3,10 +3,10 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || ""; // GTM-XXXXXX
-const GA_ID  = process.env.NEXT_PUBLIC_GA_ID  || ""; // G-XXXXXXXXXX
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ""; // G-XXXXXXXXXX
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://grandtropicalapartamento.com.br"),
+  metadataBase: new URL("https://apartamentoribeirao.site"),
   title: "Apartamento à Venda em Ribeirão Preto | Grand Tropical – 58m² com 2 Quartos",
   description:
     "Apartamento 2 quartos, 58m², sacada gourmet, condomínio clube com piscina climatizada. Aceita FGTS e Minha Casa Minha Vida. R$ 25.000 abaixo da avaliação da Caixa. Ribeirão Preto/SP.",
@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   authors: [{ name: "Grand Tropical Apartamento" }],
   robots: { index: true, follow: true },
   alternates: {
-    canonical: "https://grandtropicalapartamento.com.br",
+    canonical: "https://apartamentoribeirao.site",
   },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://grandtropicalapartamento.com.br",
+    url: "https://apartamentoribeirao.site",
     siteName: "Apartamento Grand Tropical",
     title: "Apartamento à Venda | Grand Tropical – 58m², 2 Quartos, Ribeirão Preto",
     description:
@@ -56,8 +56,8 @@ const jsonLd = {
   name: "Apartamento à Venda – Condomínio Grand Tropical",
   description:
     "Apartamento com 58m², 2 dormitórios, 2 banheiros, 1 vaga, sacada gourmet. Condomínio com piscina climatizada, academia, quadra e muito mais. Aceita financiamento, FGTS e Minha Casa Minha Vida.",
-  url: "https://grandtropicalapartamento.com.br",
-  image: "https://grandtropicalapartamento.com.br/fotos/fachada-da-torre.jpg",
+  url: "https://apartamentoribeirao.site",
+  image: "https://apartamentoribeirao.site/fotos/fachada-da-torre.jpg",
   offers: {
     "@type": "Offer",
     price: "265000",
@@ -87,6 +87,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <GoogleTagManager
+        gtmId={process.env.NEXT_PUBLIC_GTM_ID!}
+      />
       <head>
         {/* JSON-LD */}
         <script
