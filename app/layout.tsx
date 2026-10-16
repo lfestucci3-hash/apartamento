@@ -7,19 +7,19 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ""; // G-XXXXXXXXXX
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://apartamentoribeirao.site"),
-  title: "Apartamento à Venda em Ribeirão Preto | Grand Tropical – 58m² com 2 Quartos",
+  title: "Apartamento à Venda em Ribeirão Preto | Reino da Inglaterra – 42m² com 2 Quartos",
   description:
-    "Apartamento 2 quartos, 58m², sacada gourmet, condomínio clube com piscina climatizada. Aceita FGTS e Minha Casa Minha Vida. R$ 25.000 abaixo da avaliação da Caixa. Ribeirão Preto/SP.",
+    "Apartamento 2 quartos, 42m², sacada gourmet, condomínio clube com piscina. Aceita FGTS e Minha Casa Minha Vida. Ribeirão Preto/SP.",
   keywords: [
     "apartamento à venda Ribeirão Preto",
     "Minha Casa Minha Vida Ribeirão Preto",
-    "Grand Tropical apartamento",
+    "Reino da Inglaterra apartamento",
     "apartamento FGTS Ribeirão Preto",
     "condomínio clube Ribeirão Preto",
-    "apartamento Parque dos Lagos",
+    "apartamento zona leste",
     "apartamento 2 quartos Ribeirão Preto",
   ],
-  authors: [{ name: "Grand Tropical Apartamento" }],
+  authors: [{ name: "Reino da Inglaterra Apartamento" }],
   robots: { index: true, follow: true },
   alternates: {
     canonical: "https://apartamentoribeirao.site",
@@ -28,24 +28,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: "https://apartamentoribeirao.site",
-    siteName: "Apartamento Grand Tropical",
-    title: "Apartamento à Venda | Grand Tropical – 58m², 2 Quartos, Ribeirão Preto",
+    siteName: "Apartamento Reino da Inglaterra",
+    title: "Apartamento à Venda | Reino da Inglaterra – 42m², 2 Quartos, Ribeirão Preto",
     description:
-      "Seu novo lar no Grand Tropical: 58m², 2 quartos, sacada gourmet, condomínio clube. Abaixo da avaliação da Caixa. FGTS e Minha Casa Minha Vida.",
+      "Seu novo lar no Reino da Inglaterra: 42m², 2 quartos, sacada gourmet, condomínio clube. Abaixo da avaliação da Caixa. FGTS e Minha Casa Minha Vida.",
     images: [
       {
         url: "/fotos/fachada-do-condominio.webp",
         width: 1200,
         height: 630,
-        alt: "Condomínio Grand Tropical – Apartamento à venda em Ribeirão Preto",
+        alt: "Condomínio Reino da Inglaterra – Apartamento à venda em Ribeirão Preto",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apartamento à Venda | Grand Tropical – Ribeirão Preto",
+    title: "Apartamento à Venda | Reino da Inglaterra – Ribeirão Preto",
     description:
-      "58m², 2 quartos, condomínio clube. Abaixo da avaliação da Caixa. Aceita FGTS e MCMV.",
+      "42m², 2 quartos, condomínio clube. Preço de Oportunidade!. Aceita FGTS e MCMV.",
     images: ["/fotos/fachada-do-condominio.webp"],
   },
 };
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "RealEstateListing",
-  name: "Apartamento à Venda – Condomínio Grand Tropical",
+  name: "Apartamento à Venda – Condomínio Reino da Inglaterra",
   description:
-    "Apartamento com 58m², 2 dormitórios, 2 banheiros, 1 vaga, sacada gourmet. Condomínio com piscina climatizada, academia, quadra e muito mais. Aceita financiamento, FGTS e Minha Casa Minha Vida.",
+    "Apartamento com 42m², 2 dormitórios, 1 banheiro, 1 vaga coberta. Condomínio com piscina, academia, quadra e muito mais. Aceita financiamento, FGTS e Minha Casa Minha Vida.",
   url: "https://apartamentoribeirao.site",
   image: "https://apartamentoribeirao.site/fotos/fachada-da-torre.jpg",
   offers: {
@@ -66,7 +66,7 @@ const jsonLd = {
   },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Rua Olivia Maria de Jesus, 1900",
+    streetAddress: "Av. Professora Edul Rangel Rabello, 405",
     addressLocality: "Ribeirão Preto",
     addressRegion: "SP",
     postalCode: "14000-000",
