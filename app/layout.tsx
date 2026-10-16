@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://apartamentoribeirao.site"),
   title: "Apartamento à Venda em Ribeirão Preto | Reino da Inglaterra – 42m² com 2 Quartos",
   description:
-    "Apartamento 2 quartos, 42m², sacada gourmet, condomínio clube com piscina. Aceita FGTS e Minha Casa Minha Vida. Ribeirão Preto/SP.",
+    "Apartamento 2 quartos, 42m², condomínio clube com piscina. Aceita FGTS e Minha Casa Minha Vida. Ribeirão Preto/SP.",
   keywords: [
     "apartamento à venda Ribeirão Preto",
     "Minha Casa Minha Vida Ribeirão Preto",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Apartamento Reino da Inglaterra",
     title: "Apartamento à Venda | Reino da Inglaterra – 42m², 2 Quartos, Ribeirão Preto",
     description:
-      "Seu novo lar no Reino da Inglaterra: 42m², 2 quartos, sacada gourmet, condomínio clube. Abaixo da avaliação da Caixa. FGTS e Minha Casa Minha Vida.",
+      "Seu novo lar no Reino da Inglaterra: 42m², 2 quartos, condomínio clube. Preço de Oportunidade!. Aceita FGTS e Minha Casa Minha Vida.",
     images: [
       {
         url: "/fotos/fachada-do-condominio.webp",
