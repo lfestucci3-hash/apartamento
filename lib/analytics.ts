@@ -27,7 +27,7 @@ export function trackWhatsAppClick(source: string) {
 }
 
 export function trackPageView() {
-  pushEvent("page_view", { page_title: "Grand Tropical - Apartamento à Venda" });
+  pushEvent("page_view", { page_title: "Reino da Inglaterra - Apartamento à Venda" });
 }
 
 export function trackScrollDepth(depth: 25 | 50 | 75 | 100) {

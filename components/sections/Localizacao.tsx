@@ -5,18 +5,20 @@ import { MapPin, Clock, ShoppingBag, Building2, Zap } from "lucide-react";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const distances = [
-  { icon: Zap, label: "Av. Henry Nestlé", time: "1 min", color: "#C9A84C" },
-  { icon: ShoppingBag, label: "Atacadão", time: "4 min", color: "#C9A84C" },
-  { icon: Building2, label: "Novo Shopping", time: "8 min", color: "#C9A84C" },
+  { icon: Building2, label: "Novo Shopping", time: "1 min", color: "#C9A84C" },
+  { icon: Zap, label: "Av. Castelo Branco  | Av. Maurílio Biagi", time: "2 min", color: "#C9A84C" },
+  { icon: ShoppingBag, label: "Assaí | Paulistão | Tonin", time: "4 min", color: "#C9A84C" },
 ];
 
 const nearby = [
-  "Mercados e supermercados",
-  "Farmácias",
-  "Escolas e creches",
-  "Postos de combustível",
+  "Novo Shopping",
+  "Atacadistas como: Assaí | Paulistão | Tonin",
+  "Poupatempo",
+  "Hospitais",
+  "Escolas e Universidades",
+  "Fácil acesso as principais avenidas",
   "Comércio local",
-  "Serviços essenciais",
+  "E muito mais!",
 ];
 
 export function Localizacao() {
@@ -62,8 +64,8 @@ export function Localizacao() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Mapa – Condomínio Grand Tropical, Ribeirão Preto"
-              aria-label="Mapa de localização do Condomínio Grand Tropical"
+              title="Mapa – Condomínio Parque Reino da Inglaterra, Ribeirão Preto"
+              aria-label="Mapa de localização do Condomínio Parque Reino da Inglaterra"
             />
           </motion.div>
 

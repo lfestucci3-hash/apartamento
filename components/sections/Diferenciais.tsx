@@ -21,42 +21,37 @@ const diferenciais = [
   {
     icon: Home,
     title: "Planta bem distribuída",
-    desc: "58 m² aproveitados com inteligência. Sala integrada, dois quartos, dois banheiros e sacada gourmet.",
-  },
-  {
-    icon: Wind,
-    title: "Sacada gourmet com pia",
-    desc: "Espaço ideal para confraternizações, momentos em família e lazer ao ar livre com privacidade.",
+    desc: "43 m² aproveitados com inteligência. Sala integrada, dois quartos e banheiro.",
   },
   {
     icon: Layers,
-    title: "Porcelanato em tudo",
-    desc: "Piso porcelanato de alta qualidade em todos os ambientes, do corredor ao quarto.",
+    title: "Piso porcelanato",
+    desc: "Piso porcelanato na sala e cozinha.",
   },
   {
     icon: Lightbulb,
-    title: "Iluminação 100% LED",
-    desc: "Apartamento entregue com iluminação em LED em todos os cômodos. Economia garantida.",
+    title: "Iluminação em LED",
+    desc: "Apartamento todo em LED. Economia garantida.",
   },
   {
     icon: ChefHat,
     title: "Armários planejados",
-    desc: "Cozinha e lavanderia com armários planejados já incluídos. Mudança mais simples e lar organizado.",
+    desc: "Cozinha e lavanderia com armários planejados. Mudança mais simples e lar organizado.",
   },
   {
     icon: Bath,
-    title: "Dois banheiros completos",
-    desc: "Suíte e banheiro social com box de vidro e armários aéreos. Conforto para toda a família.",
+    title: "Banheiro completo",
+    desc: "Banheiro com box de vidro e armário aéreo. Conforto para toda a família.",
   },
   {
     icon: Building2,
-    title: "4º andar com privacidade",
-    desc: "Posição privilegiada com maior ventilação, iluminação natural e privacidade.",
+    title: "2º andar com privacidade",
+    desc: "Segurança e privacidade.",
   },
   {
     icon: Car,
     title: "1 vaga de garagem",
-    desc: "Vaga exclusiva incluída no imóvel. Segurança e comodidade no dia a dia.",
+    desc: "Vaga exclusiva com cobertura. Segurança e proteção para o seu veículo.",
   },
   {
     icon: Shield,
@@ -66,12 +61,12 @@ const diferenciais = [
   {
     icon: Trees,
     title: "Condomínio clube completo",
-    desc: "Piscinas climatizadas, academia, quadra, playground, salão gourmet e muito mais.",
+    desc: "Piscina adulto e infantil, academia completa, quadra, playground, pista de caminhada, mercadinho, salão de festas e muito mais.",
   },
   {
     icon: MapPin,
-    title: "Localização estratégica",
-    desc: "Zona Leste de Ribeirão Preto. 1 min da Av. Henry Nestlé, 4 min do Atacadão.",
+    title: "Excelente Localização",
+    desc: "Ao lado do Novo Shopping e de bairros nobres da cidade: Ribeirânia, City Ribeirão, Jardim Botânico. Próximo de atacadistas, hospitais, escolas e acesso rápido para as principais avenidas.",
   },
   {
     icon: CheckCircle,

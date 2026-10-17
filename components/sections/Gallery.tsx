@@ -9,33 +9,28 @@ import { trackGalleryOpen, trackGalleryNavigate } from "@/lib/analytics";
 
 const photos = [
   // Ambiente real
-  { src: "/fotos/sacada-gourmet-com-pia.jpg", alt: "Sacada gourmet com pia" },
   { src: "/fotos/sala-estar-e-sala-jantar-vazias-01.jpg", alt: "Sala de estar e jantar" },
   { src: "/fotos/sala-estar-e-sala-jantar-vazias-02.jpg", alt: "Vista da sala integrada" },
   { src: "/fotos/cozinha-armarios-01.jpg", alt: "Cozinha com armários planejados" },
   { src: "/fotos/cozinha-armarios-02.jpg", alt: "Cozinha – vista lateral" },
-  { src: "/fotos/quarto-suite-vazio-01.jpg", alt: "Suíte" },
-  { src: "/fotos/quarto-suite-vazio-02.jpg", alt: "Suíte – ângulo 2" },
   { src: "/fotos/quarto-solteiro-vazio.jpg", alt: "Segundo dormitório" },
-  { src: "/fotos/banheiro-suite-box-armario.jpg", alt: "Banheiro da suíte com box e armário" },
-  { src: "/fotos/banheiro-social-box-armario.jpg", alt: "Banheiro social com box e armário" },
+  { src: "/fotos/banheiro-social-box-armario.jpg", alt: "Banheiro com box e armário" },
   { src: "/fotos/lavanderia-com-armario.jpg", alt: "Lavanderia com armário planejado" },
   // Decorado primeiro (mais impactante)
   { src: "/fotos/decorado/sala-estar-decorada-sofa-e-tv.png", alt: "Sala de estar decorada com sofá e TV" },
   { src: "/fotos/decorado/sala-jantar-decorada.png", alt: "Sala de jantar decorada" },
   { src: "/fotos/decorado/sacada-decorada.png", alt: "Sacada gourmet decorada" },
-  { src: "/fotos/decorado/quarto-suite-decorado.png", alt: "Suíte decorada" },
   { src: "/fotos/decorado/quarto-solteiro-cama-casal-decorado.png", alt: "Quarto decorado com cama casal" },
   { src: "/fotos/decorado/quarto-solteiro-cama-solteiro-escritorio-decorado.png", alt: "Quarto decorado como escritório" },
   // Condomínio
-  { src: "/fotos/piscina-01.jpeg", alt: "Piscina adulto climatizada" },
+  { src: "/fotos/piscina-01.jpeg", alt: "Piscina adulto" },
   { src: "/fotos/piscina-02.jpeg", alt: "Piscina – área de lazer" },
   { src: "/fotos/academia.jpeg", alt: "Academia equipada" },
   { src: "/fotos/quadra-poliesportiva.jpeg", alt: "Quadra poliesportiva" },
   { src: "/fotos/playground.jpeg", alt: "Playground" },
   { src: "/fotos/churrasqueira.jpeg", alt: "Churrasqueira" },
   { src: "/fotos/salao-de-festas.jpeg", alt: "Salão de festas gourmet" },
-  { src: "/fotos/fachada-do-condominio.webp", alt: "Fachada do Condomínio Grand Tropical" },
+  { src: "/fotos/fachada-do-condominio.webp", alt: "Fachada do Condomínio Reino da Inglaterra" },
   { src: "/fotos/fachada-da-torre.jpg", alt: "Torre do condomínio" },
 ];
 
@@ -177,7 +172,7 @@ export function Gallery() {
               controls
               preload="metadata"
               poster="/fotos/fachada-da-torre.jpg"
-              aria-label="Vídeo tour do apartamento Grand Tropical"
+              aria-label="Vídeo tour do apartamento Reino da Inglaterra"
               style={{ borderRadius: "1rem", width: "100%", height: "100%", objectFit: "cover", boxShadow: "0 8px 32px rgba(13,17,23,0.15)" }}
             >
               <source src="/video/video-do-apartamento.mp4" type="video/mp4" />

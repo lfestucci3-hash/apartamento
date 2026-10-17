@@ -26,7 +26,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src="/fotos/fachada-da-torre.jpg"
-        alt="Fachada do Condomínio Grand Tropical em Ribeirão Preto"
+        alt="Fachada do Condomínio Parque Reino da Inglaterra em Ribeirão Preto"
         fill
         priority
         quality={85}
@@ -82,7 +82,7 @@ export function Hero() {
           }}
         >
           <Star size={13} aria-hidden="true" />
-          Condomínio Grand Tropical · Ribeirão Preto/SP
+          Condomínio Parque Reino da Inglaterra · Ribeirão Preto/SP
         </motion.div>
 
         {/* Headline */}
@@ -117,8 +117,8 @@ export function Hero() {
             lineHeight: 1.65,
           }}
         >
-          58 m² com 2 quartos, sacada gourmet e condomínio clube completo no
-          coração da Zona Leste de Ribeirão Preto. Pronto para morar.
+          43 m² com 2 quartos, e condomínio completo do ladinho do Novo Shopping
+          na melhor localização de Ribeirão Preto. Pronto para morar!
         </motion.p>
 
         {/* Price block */}

@@ -7,7 +7,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const bullets = [
   { icon: CheckCircle, text: "Pronto para morar — sem obras, sem espera" },
-  { icon: TrendingDown, text: "R$ 25.000 abaixo da avaliação da Caixa" },
+  { icon: TrendingDown, text: "Preço de oportunidade" },
   { icon: CheckCircle, text: "Documentação 100% regularizada" },
   { icon: CheckCircle, text: "IPTU 2026 já quitado" },
   { icon: Clock, text: "Proprietário analisa propostas — oportunidade única" },
@@ -23,7 +23,7 @@ export function ChamadaFinal() {
       {/* Background */}
       <Image
         src="/fotos/decorado/sala-estar-decorada-sofa-e-tv.png"
-        alt="Sala de estar decorada do apartamento Grand Tropical"
+        alt="Sala de estar decorada do apartamento Reino da Inglaterra"
         fill
         style={{ objectFit: "cover", objectPosition: "center" }}
         sizes="100vw"
@@ -167,10 +167,7 @@ export function ChamadaFinal() {
             Valor do imóvel
           </div>
           <div style={{ fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, letterSpacing: "-0.02em" }}>
-            R$ 265.000
-          </div>
-          <div style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.4)", marginTop: "0.25rem" }}>
-            Avaliação Caixa: R$ 290.000 · Economia de R$ 25.000
+            R$ 190.000
           </div>
         </motion.div>
 

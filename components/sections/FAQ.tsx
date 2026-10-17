@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "O imóvel está enquadrado no Minha Casa Minha Vida?",
-    a: "Sim. O apartamento está enquadrado no programa Minha Casa Minha Vida, o que garante condições facilitadas de financiamento e taxas de juros reduzidas.",
+    a: "Sim. O apartamento está enquadrado no programa Minha Casa Minha Vida, o que garante condições facilitadas de financiamento, taxas de juros reduzidas e possibilidade de uso de subsídios do governo.",
   },
   {
     q: "A documentação está regularizada?",
@@ -30,20 +30,12 @@ const faqs = [
     a: "O apartamento inclui 1 (uma) vaga de garagem coberta, inclusa no valor do imóvel.",
   },
   {
-    q: "O condomínio possui elevador?",
-    a: "Sim. O Condomínio Grand Tropical conta com dois elevadores — um social e um de serviço.",
-  },
-  {
     q: "Qual é a infraestrutura de lazer do condomínio?",
-    a: "O condomínio possui piscina adulto e infantil (ambas climatizadas), academia equipada, quadra poliesportiva, playground, pista de caminhada, salão de festas gourmet com churrasqueira e mercadinho interno. Portaria funciona 24 horas.",
-  },
-  {
-    q: "O proprietário aceita propostas?",
-    a: "Sim. O proprietário está aberto a analisar propostas sérias. Entre em contato pelo WhatsApp para negociar diretamente.",
+    a: "O condomínio possui piscina adulto e infantil, academia completa, quadra poliesportiva, playground, pista de caminhada, salão de festas com churrasqueira e mercadinho interno. Portaria funciona 24 horas.",
   },
   {
     q: "Como faço para agendar uma visita?",
-    a: "É simples: clique em qualquer botão de WhatsApp nesta página e envie uma mensagem. O agendamento é feito diretamente pelo WhatsApp, sem formulários ou burocracia.",
+    a: "É simples: clique em qualquer botão de WhatsApp nesta página e envie uma mensagem. O agendamento é feito diretamente pelo WhatsApp.",
   },
 ];
 

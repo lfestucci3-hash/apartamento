@@ -17,14 +17,14 @@ import {
 const amenities = [
   {
     icon: Waves,
-    title: "Piscinas Climatizadas",
+    title: "Piscinas",
     desc: "Adulto e infantil — abertas o ano todo",
     img: "/fotos/piscina-01.jpeg",
   },
   {
     icon: Dumbbell,
     title: "Academia Equipada",
-    desc: "Equipamentos modernos sem sair de casa",
+    desc: "Academia moderna e completa sem sair de casa",
     img: "/fotos/academia.jpeg",
   },
   {
@@ -48,7 +48,7 @@ const amenities = [
   {
     icon: PartyPopper,
     title: "Salão de Festas Gourmet",
-    desc: "Espaço elegante para suas comemorações",
+    desc: "Espaço confortável para suas comemorações",
     img: "/fotos/salao-de-festas.jpeg",
   },
 ];
@@ -57,18 +57,7 @@ const extras = [
   { icon: Footprints, label: "Pista de Caminhada" },
   { icon: ShoppingCart, label: "Mercadinho Interno" },
   { icon: Shield, label: "Portaria 24 horas" },
-  { icon: ElevatorIcon, label: "2 Elevadores" },
 ];
-
-// Elevator icon (not available in lucide)
-function ElevatorIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" width={props.width ?? 20} height={props.height ?? 20} style={props.style}>
-      <rect x="4" y="2" width="16" height="20" rx="2" />
-      <path d="M9 9l3-3 3 3M9 15l3 3 3-3" />
-    </svg>
-  );
-}
 
 export function Condominio() {
   return (
@@ -83,9 +72,9 @@ export function Condominio() {
           style={{ textAlign: "center", marginBottom: "3.5rem" }}
           className="prose-brand"
         >
-          <h3>Condomínio Grand Tropical</h3>
+          <h3>Condomínio Parque Reino da Inglaterra</h3>
           <h2 style={{ marginTop: "0.5rem" }}>
-            Um clube dentro do seu condomínio
+            Tudo que você precisa, dentro do seu condomínio
           </h2>
           <p style={{ color: "var(--brand-muted)", marginTop: "1rem", maxWidth: "540px", margin: "1rem auto 0" }}>
             Lazer, conveniência e segurança — tudo o que você precisa, a poucos passos da sua porta.

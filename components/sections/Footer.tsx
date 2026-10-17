@@ -38,11 +38,11 @@ export function Footer() {
               marginBottom: "0.35rem",
             }}
           >
-            Grand Tropical
+            Reino da Inglaterra
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "0.35rem", fontSize: "0.85rem" }}>
             <MapPin size={13} style={{ color: "var(--brand-accent)" }} aria-hidden="true" />
-            Rua Olivia Maria de Jesus, 1900 · Parque dos Lagos · Ribeirão Preto/SP
+            Avenida Professora Edul Rangel Rabello, 405 · Residencial Jequitibá · Ribeirão Preto/SP
           </div>
         </div>
 
@@ -96,7 +96,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.25)" }}>
-          © {year} Condomínio Grand Tropical · Ribeirão Preto/SP · Todos os direitos reservados
+          © {year} Condomínio Parque Reino da Inglaterra · Ribeirão Preto/SP · Todos os direitos reservados
         </div>
       </div>
     </footer>
