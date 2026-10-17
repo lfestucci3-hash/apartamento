@@ -150,7 +150,7 @@ export function Hero() {
               color: "white",
             }}
           >
-            R$ 265.000
+            R$ 190.000
           </div>
           {/* Savings badge */}
           <div
@@ -168,10 +168,10 @@ export function Hero() {
             }}
           >
             <TrendingDown size={14} aria-hidden="true" />
-            R$ 25.000 abaixo da avaliação da Caixa
+            R$ 20.000 abaixo do valor de mercado
           </div>
           <div style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.45)" }}>
-            Avaliação Caixa Econômica: R$ 290.000
+            Imóveis semelhantes avaliados em R$ 210.000
           </div>
         </motion.div>
 

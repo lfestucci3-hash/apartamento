@@ -45,8 +45,8 @@ const conditions = [
   },
   {
     icon: TrendingDown,
-    title: "Abaixo da avaliação da Caixa",
-    desc: "Avaliado em R$ 290.000 pela Caixa Econômica, sendo vendido por R$ 265.000. Economia real de R$ 25.000.",
+    title: "Abaixo do valor de mercado",
+    desc: "Imóveis semelhantes avaliados em R$ 210.000. Economia real de R$ 20.000.",
     highlight: true,
   },
 ];
@@ -179,10 +179,6 @@ export function CondicoesCompra() {
             flexWrap: "wrap",
           }}
         >
-          <CheckCircle size={20} style={{ color: "#25D366", flexShrink: 0 }} aria-hidden="true" />
-          <span style={{ fontSize: "1rem", fontWeight: 600, color: "var(--brand-dark)" }}>
-            O proprietário analisa propostas. Não perca a oportunidade!
-          </span>
         </motion.div>
 
         {/* CTA */}
@@ -193,7 +189,7 @@ export function CondicoesCompra() {
           transition={{ duration: 0.5 }}
           style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}
         >
-          <WhatsAppButton source="condicoes" label="Fazer uma proposta pelo WhatsApp" size="lg" />
+          <WhatsAppButton source="condicoes" label="Entre em contato pelo WhatsApp" size="lg" />
         </motion.div>
       </div>
     </section>

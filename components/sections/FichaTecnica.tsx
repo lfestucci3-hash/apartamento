@@ -15,23 +15,21 @@ import {
 } from "lucide-react";
 
 const specs = [
-  { icon: Maximize2, label: "Área privativa", value: "58 m²" },
+  { icon: Maximize2, label: "Área privativa", value: "43 m²" },
   { icon: BedDouble, label: "Dormitórios", value: "2 quartos" },
-  { icon: Bath, label: "Banheiros", value: "2 banheiros" },
-  { icon: Car, label: "Garagem", value: "1 vaga exclusiva" },
-  { icon: Building, label: "Andar", value: "4º andar" },
-  { icon: PackageCheck, label: "Condomínio", value: "R$ 372/mês" },
+  { icon: Bath, label: "Banheiros", value: "1 banheiro" },
+  { icon: Car, label: "Garagem", value: "1 vaga coberta" },
+  { icon: Building, label: "Andar", value: "2º andar" },
+  { icon: PackageCheck, label: "Condomínio", value: "R$ 430/mês" },
 ];
 
 const acabamentos = [
-  { icon: Layers, label: "Piso porcelanato em todos os ambientes" },
+  { icon: Layers, label: "Piso porcelanato na sala e cozinha" },
   { icon: Lightbulb, label: "Iluminação 100% em LED" },
   { icon: ChefHat, label: "Armários planejados na cozinha" },
   { icon: ChefHat, label: "Armários planejados na lavanderia" },
-  { icon: Bath, label: "Banheiros com box de vidro" },
-  { icon: Bath, label: "Banheiros com armários aéreos" },
-  { icon: Wind, label: "Sacada gourmet ampla com pia" },
-  { icon: PackageCheck, label: "Excelente padrão de acabamento" },
+  { icon: Bath, label: "Banheiro com box de vidro e armário aéreo" },
+  { icon: PackageCheck, label: "Todo Revisado e Reformado" },
 ];
 
 export function FichaTecnica() {
