@@ -57,7 +57,7 @@ export function Localizacao() {
             style={{ borderRadius: "1.25rem", overflow: "hidden", border: "1px solid var(--brand-border)", boxShadow: "0 4px 24px rgba(13,17,23,0.08)" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.7123456789!2d-47.7654321!3d-21.1789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bb5a8c8d3b25%3A0x1234567890abcdef!2sRua%20Olivia%20Maria%20de%20Jesus%2C%201900%2C%20Ribeir%C3%A3o%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1323.4271953482948!2d-47.76633128515283!3d-21.21222827710527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9b8a057e82b55%3A0x78dad3b38bcbd16a!2sMRV%20Parque%20Reino%20da%20Inglaterra!5e1!3m2!1spt-BR!2sbr!4v1792266746511!5m2!1spt-BR!2sbr"
               width="100%"
               height="400"
               style={{ border: 0, display: "block" }}
@@ -97,10 +97,10 @@ export function Localizacao() {
                 </span>
               </div>
               <p style={{ fontSize: "1.1rem", fontWeight: 600, lineHeight: 1.5, marginBottom: "0.5rem" }}>
-                Rua Olivia Maria de Jesus, 1900
+                Avenida Professora Edul Rangel Rabello, 405
               </p>
               <p style={{ color: "rgba(255,255,255,0.6)", fontSize: "0.9rem" }}>
-                Parque dos Lagos · Ribeirão Preto/SP
+                Residencial Jequitibá · Ribeirão Preto/SP
               </p>
               <div style={{ marginTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "1.25rem" }}>
                 <p style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.4)", marginBottom: "0.75rem", textTransform: "uppercase", letterSpacing: "0.06em" }}>
