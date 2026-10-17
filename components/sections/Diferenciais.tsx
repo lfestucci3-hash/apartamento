@@ -16,8 +16,14 @@ import {
   CheckCircle,
 } from "lucide-react";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { title } from "process";
 
 const diferenciais = [
+  {
+    icon: MapPin,
+    title: "Excelente Localização",
+    desc: "Ao lado do Novo Shopping e de bairros nobres da cidade: Ribeirânia, City Ribeirão, Jardim Botânico. Próximo de atacadistas, hospitais, escolas e acesso rápido para as principais avenidas.",
+  },
   {
     icon: Home,
     title: "Planta bem distribuída",
@@ -25,13 +31,8 @@ const diferenciais = [
   },
   {
     icon: Layers,
-    title: "Piso porcelanato",
+    title: "Piso Novinho",
     desc: "Piso porcelanato na sala e cozinha.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Iluminação em LED",
-    desc: "Apartamento todo em LED. Economia garantida.",
   },
   {
     icon: ChefHat,
@@ -44,14 +45,14 @@ const diferenciais = [
     desc: "Banheiro com box de vidro e armário aéreo. Conforto para toda a família.",
   },
   {
-    icon: Building2,
-    title: "2º andar com privacidade",
-    desc: "Segurança e privacidade.",
-  },
-  {
     icon: Car,
     title: "1 vaga de garagem",
     desc: "Vaga exclusiva com cobertura. Segurança e proteção para o seu veículo.",
+  },
+  {
+    icon: Lightbulb,
+    title: "Iluminação em LED",
+    desc: "Apartamento todo em LED. Economia garantida.",
   },
   {
     icon: Shield,
@@ -64,9 +65,9 @@ const diferenciais = [
     desc: "Piscina adulto e infantil, academia completa, quadra, playground, pista de caminhada, mercadinho, salão de festas e muito mais.",
   },
   {
-    icon: MapPin,
-    title: "Excelente Localização",
-    desc: "Ao lado do Novo Shopping e de bairros nobres da cidade: Ribeirânia, City Ribeirão, Jardim Botânico. Próximo de atacadistas, hospitais, escolas e acesso rápido para as principais avenidas.",
+    icon: Building2,
+    title: "2º andar com privacidade",
+    desc: "Segurança e privacidade.",
   },
   {
     icon: CheckCircle,
