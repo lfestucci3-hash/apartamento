@@ -18,7 +18,7 @@ const photos = [
   { src: "/fotos/banheiro-social-box-armario.jpg", alt: "Banheiro com box e armário" },
   // Decorado primeiro (mais impactante)
   { src: "/fotos/decorado/sala-estar-decorada-sofa-e-tv.png", alt: "Sala de estar decorada com sofá e TV" },
-  { src: "/fotos/decorado/sala-jantar-decorada.png", alt: "Sala de jantar decorada" },
+  { src: "/fotos/decorado/quarto-casal-decorado.png", alt: "Quarto de Casal Decorado" },
   { src: "/fotos/decorado/quarto-solteiro-cama-solteiro-escritorio-decorado.png", alt: "Quarto decorado como escritório" },
   // Condomínio
   { src: "/fotos/piscina-01.webp", alt: "Piscinas adulto e infantil" },
