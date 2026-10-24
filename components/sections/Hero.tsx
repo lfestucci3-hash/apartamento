@@ -25,7 +25,7 @@ export function Hero() {
     >
       {/* Background image */}
       <Image
-        src="/fotos/fachada-da-torre.jpg"
+        src="/fotos/fachada-da-torre.webp"
         alt="Fachada do Condomínio Parque Reino da Inglaterra em Ribeirão Preto"
         fill
         priority

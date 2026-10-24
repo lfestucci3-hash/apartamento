@@ -13,25 +13,24 @@ const photos = [
   { src: "/fotos/sala-estar-e-sala-jantar-vazias-02.jpg", alt: "Vista da sala integrada" },
   { src: "/fotos/cozinha-armarios-01.jpg", alt: "Cozinha com armários planejados" },
   { src: "/fotos/cozinha-armarios-02.jpg", alt: "Cozinha – vista lateral" },
-  { src: "/fotos/quarto-solteiro-vazio.jpg", alt: "Segundo dormitório" },
+  { src: "/fotos/quarto-02-vazio.jpg", alt: "Dormitório 02" },
+  { src: "/fotos/quarto-01-vazio.jpg", alt: "Dormitório 01" },
   { src: "/fotos/banheiro-social-box-armario.jpg", alt: "Banheiro com box e armário" },
-  { src: "/fotos/lavanderia-com-armario.jpg", alt: "Lavanderia com armário planejado" },
   // Decorado primeiro (mais impactante)
   { src: "/fotos/decorado/sala-estar-decorada-sofa-e-tv.png", alt: "Sala de estar decorada com sofá e TV" },
   { src: "/fotos/decorado/sala-jantar-decorada.png", alt: "Sala de jantar decorada" },
-  { src: "/fotos/decorado/sacada-decorada.png", alt: "Sacada gourmet decorada" },
-  { src: "/fotos/decorado/quarto-solteiro-cama-casal-decorado.png", alt: "Quarto decorado com cama casal" },
   { src: "/fotos/decorado/quarto-solteiro-cama-solteiro-escritorio-decorado.png", alt: "Quarto decorado como escritório" },
   // Condomínio
-  { src: "/fotos/piscina-01.jpeg", alt: "Piscina adulto" },
-  { src: "/fotos/piscina-02.jpeg", alt: "Piscina – área de lazer" },
-  { src: "/fotos/academia.jpeg", alt: "Academia equipada" },
-  { src: "/fotos/quadra-poliesportiva.jpeg", alt: "Quadra poliesportiva" },
-  { src: "/fotos/playground.jpeg", alt: "Playground" },
-  { src: "/fotos/churrasqueira.jpeg", alt: "Churrasqueira" },
-  { src: "/fotos/salao-de-festas.jpeg", alt: "Salão de festas gourmet" },
+  { src: "/fotos/piscina-01.webp", alt: "Piscinas adulto e infantil" },
+  { src: "/fotos/estacionamento-coberto.webp", alt: "Estacionamento Coberto" },
+  { src: "/fotos/brinquedoteca.webp", alt: "Brinquedoteca" },
+  { src: "/fotos/academia.webp", alt: "Academia equipada" },
+  { src: "/fotos/quadra-poliesportiva.webp", alt: "Quadra poliesportiva" },
+  { src: "/fotos/playground.webp", alt: "Playground" },
+  { src: "/fotos/churrasqueira.webp", alt: "Churrasqueira" },
+  { src: "/fotos/salao-de-festas.webp", alt: "Salão de festas" },
+  { src: "/fotos/pista-de-caminhada.webp", alt: "Pista de caminhada" },
   { src: "/fotos/fachada-do-condominio.webp", alt: "Fachada do Condomínio Reino da Inglaterra" },
-  { src: "/fotos/fachada-da-torre.jpg", alt: "Torre do condomínio" },
 ];
 
 export function Gallery() {
@@ -171,7 +170,7 @@ export function Gallery() {
             <video
               controls
               preload="metadata"
-              poster="/fotos/fachada-da-torre.jpg"
+              poster="/fotos/fachada-da-torre.webp"
               aria-label="Vídeo tour do apartamento Reino da Inglaterra"
               style={{ borderRadius: "1rem", width: "100%", height: "100%", objectFit: "cover", boxShadow: "0 8px 32px rgba(13,17,23,0.15)" }}
             >

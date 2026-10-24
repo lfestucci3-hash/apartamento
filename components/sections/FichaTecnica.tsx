@@ -27,7 +27,7 @@ const acabamentos = [
   { icon: Layers, label: "Piso porcelanato na sala e cozinha" },
   { icon: Lightbulb, label: "Iluminação 100% em LED" },
   { icon: ChefHat, label: "Armários planejados na cozinha" },
-  { icon: ChefHat, label: "Armários planejados na lavanderia" },
+  { icon: ChefHat, label: "Armário planejado na lavanderia" },
   { icon: Bath, label: "Banheiro com box de vidro e armário aéreo" },
   { icon: PackageCheck, label: "Todo Revisado e Reformado" },
 ];

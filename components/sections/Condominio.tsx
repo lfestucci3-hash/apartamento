@@ -19,7 +19,7 @@ const amenities = [
     icon: Waves,
     title: "Piscinas",
     desc: "Adulto e infantil — abertas o ano todo",
-    img: "/fotos/piscina-01.jpeg",
+    img: "/fotos/piscina-01.webp",
   },
   {
     icon: Dumbbell,

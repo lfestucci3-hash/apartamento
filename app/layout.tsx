@@ -57,7 +57,7 @@ const jsonLd = {
   description:
     "Apartamento com 42m², 2 dormitórios, 1 banheiro, 1 vaga coberta. Condomínio com piscina, academia, quadra e muito mais. Aceita financiamento, FGTS e Minha Casa Minha Vida.",
   url: "https://apartamentoribeirao.site",
-  image: "https://apartamentoribeirao.site/fotos/fachada-da-torre.jpg",
+  image: "https://apartamentoribeirao.site/fotos/fachada-da-torre.webp",
   offers: {
     "@type": "Offer",
     price: "190000",
