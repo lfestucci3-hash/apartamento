@@ -25,31 +25,31 @@ const amenities = [
     icon: Dumbbell,
     title: "Academia Equipada",
     desc: "Academia moderna e completa sem sair de casa",
-    img: "/fotos/academia.jpeg",
+    img: "/fotos/academia.webp",
   },
   {
     icon: Trophy,
     title: "Quadra Poliesportiva",
     desc: "Futebol, basquete e muito esporte",
-    img: "/fotos/quadra-poliesportiva.jpeg",
+    img: "/fotos/quadra-poliesportiva.webp",
   },
   {
     icon: Baby,
     title: "Playground",
     desc: "Área segura e divertida para as crianças",
-    img: "/fotos/playground.jpeg",
+    img: "/fotos/playground.webp",
   },
   {
     icon: Flame,
     title: "Churrasqueira",
     desc: "Para os melhores momentos em família",
-    img: "/fotos/churrasqueira.jpeg",
+    img: "/fotos/churrasqueira.webp",
   },
   {
     icon: PartyPopper,
     title: "Salão de Festas Gourmet",
     desc: "Espaço confortável para suas comemorações",
-    img: "/fotos/salao-de-festas.jpeg",
+    img: "/fotos/salao-de-festas.webp",
   },
 ];
 
