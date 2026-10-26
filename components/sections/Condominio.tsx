@@ -19,37 +19,37 @@ const amenities = [
     icon: Waves,
     title: "Piscinas",
     desc: "Adulto e infantil — abertas o ano todo",
-    img: "/fotos/piscina-01.webp",
+    img: "/fotos/piscina-012.webp",
   },
   {
     icon: Dumbbell,
     title: "Academia Equipada",
     desc: "Academia moderna e completa sem sair de casa",
-    img: "/fotos/academia.webp",
+    img: "/fotos/academia2.webp",
   },
   {
     icon: Trophy,
     title: "Quadra Poliesportiva",
     desc: "Futebol, basquete e muito esporte",
-    img: "/fotos/quadra-poliesportiva.webp",
+    img: "/fotos/quadra-poliesportiva2.webp",
   },
   {
     icon: Baby,
     title: "Playground",
     desc: "Área segura e divertida para as crianças",
-    img: "/fotos/playground.webp",
+    img: "/fotos/playground2.webp",
   },
   {
     icon: Flame,
     title: "Churrasqueira",
     desc: "Para os melhores momentos em família",
-    img: "/fotos/churrasqueira.webp",
+    img: "/fotos/churrasqueira2.webp",
   },
   {
     icon: PartyPopper,
     title: "Salão de Festas Gourmet",
     desc: "Espaço confortável para suas comemorações",
-    img: "/fotos/salao-de-festas.webp",
+    img: "/fotos/salao-de-festas2.webp",
   },
 ];
 

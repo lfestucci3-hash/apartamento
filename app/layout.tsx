@@ -34,7 +34,7 @@ export const metadata: Metadata = {
       "Seu novo lar no Reino da Inglaterra: 42m², 2 quartos, condomínio clube. Preço de Oportunidade!. Aceita FGTS e Minha Casa Minha Vida.",
     images: [
       {
-        url: "/fotos/fachada-do-condominio.webp",
+        url: "/fotos/fachada-do-condominio2.webp",
         width: 1200,
         height: 630,
         alt: "Condomínio Reino da Inglaterra – Apartamento à venda em Ribeirão Preto",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Apartamento à Venda | Reino da Inglaterra – Ribeirão Preto",
     description:
       "42m², 2 quartos, condomínio clube. Preço de Oportunidade!. Aceita FGTS e MCMV.",
-    images: ["/fotos/fachada-do-condominio.webp"],
+    images: ["/fotos/fachada-do-condominio2.webp"],
   },
 };
 
@@ -57,7 +57,7 @@ const jsonLd = {
   description:
     "Apartamento com 42m², 2 dormitórios, 1 banheiro, 1 vaga coberta. Condomínio com piscina, academia, quadra e muito mais. Aceita financiamento, FGTS e Minha Casa Minha Vida.",
   url: "https://apartamentoribeirao.site",
-  image: "https://apartamentoribeirao.site/fotos/fachada-da-torre.webp",
+  image: "https://apartamentoribeirao.site/fotos/fachada-da-torre2.webp",
   offers: {
     "@type": "Offer",
     price: "190000",

@@ -9,28 +9,28 @@ import { trackGalleryOpen, trackGalleryNavigate } from "@/lib/analytics";
 
 const photos = [
   // Ambiente real
-  { src: "/fotos/sala-estar-e-sala-jantar-vazias-01.jpg", alt: "Sala de estar e jantar" },
-  { src: "/fotos/sala-estar-e-sala-jantar-vazias-02.jpg", alt: "Vista da sala integrada" },
-  { src: "/fotos/cozinha-armarios-01.jpg", alt: "Cozinha com armários planejados" },
-  { src: "/fotos/cozinha-armarios-02.jpg", alt: "Cozinha – vista lateral" },
-  { src: "/fotos/quarto-02-vazio.jpg", alt: "Dormitório 02" },
-  { src: "/fotos/quarto-01-vazio.jpg", alt: "Dormitório 01" },
-  { src: "/fotos/banheiro-social-box-armario.jpg", alt: "Banheiro com box e armário" },
+  { src: "/fotos/sala-estar-e-sala-jantar-vazias-012.jpg", alt: "Sala de estar e jantar" },
+  { src: "/fotos/sala-estar-e-sala-jantar-vazias-022.jpg", alt: "Vista da sala integrada" },
+  { src: "/fotos/cozinha-armarios-012.jpg", alt: "Cozinha com armários planejados" },
+  { src: "/fotos/cozinha-armarios-022.jpg", alt: "Cozinha – vista lateral" },
+  { src: "/fotos/quarto-02-vazio2.jpg", alt: "Dormitório 02" },
+  { src: "/fotos/quarto-01-vazio2.jpg", alt: "Dormitório 01" },
+  { src: "/fotos/banheiro-social-box-armario2.jpg", alt: "Banheiro com box e armário" },
   // Decorado primeiro (mais impactante)
-  { src: "/fotos/decorado/sala-estar-decorada-sofa-e-tv.png", alt: "Sala de estar decorada com sofá e TV" },
-  { src: "/fotos/decorado/quarto-casal-decorado.png", alt: "Quarto de Casal Decorado" },
-  { src: "/fotos/decorado/quarto-solteiro-cama-solteiro-escritorio-decorado.png", alt: "Quarto decorado como escritório" },
+  { src: "/fotos/decorado/sala-estar-decorada-sofa-e-tv2.png", alt: "Sala de estar decorada com sofá e TV" },
+  { src: "/fotos/decorado/quarto-casal-decorado2.png", alt: "Quarto de Casal Decorado" },
+  { src: "/fotos/decorado/quarto-solteiro-cama-solteiro-escritorio-decorado2.png", alt: "Quarto decorado como escritório" },
   // Condomínio
-  { src: "/fotos/piscina-01.webp", alt: "Piscinas adulto e infantil" },
-  { src: "/fotos/estacionamento-coberto.webp", alt: "Estacionamento Coberto" },
-  { src: "/fotos/brinquedoteca.webp", alt: "Brinquedoteca" },
-  { src: "/fotos/academia.webp", alt: "Academia equipada" },
-  { src: "/fotos/quadra-poliesportiva.webp", alt: "Quadra poliesportiva" },
-  { src: "/fotos/playground.webp", alt: "Playground" },
-  { src: "/fotos/churrasqueira.webp", alt: "Churrasqueira" },
-  { src: "/fotos/salao-de-festas.webp", alt: "Salão de festas" },
-  { src: "/fotos/pista-de-caminhada.webp", alt: "Pista de caminhada" },
-  { src: "/fotos/fachada-do-condominio.webp", alt: "Fachada do Condomínio Reino da Inglaterra" },
+  { src: "/fotos/piscina-012.webp", alt: "Piscinas adulto e infantil" },
+  { src: "/fotos/estacionamento-coberto2.webp", alt: "Estacionamento Coberto" },
+  { src: "/fotos/brinquedoteca2.webp", alt: "Brinquedoteca" },
+  { src: "/fotos/academia2.webp", alt: "Academia equipada" },
+  { src: "/fotos/quadra-poliesportiva2.webp", alt: "Quadra poliesportiva" },
+  { src: "/fotos/playground2.webp", alt: "Playground" },
+  { src: "/fotos/churrasqueira2.webp", alt: "Churrasqueira" },
+  { src: "/fotos/salao-de-festas2.webp", alt: "Salão de festas" },
+  { src: "/fotos/pista-de-caminhada2.webp", alt: "Pista de caminhada" },
+  { src: "/fotos/fachada-do-condominio2.webp", alt: "Fachada do Condomínio Reino da Inglaterra" },
 ];
 
 export function Gallery() {
@@ -170,11 +170,11 @@ export function Gallery() {
             <video
               controls
               preload="metadata"
-              poster="/fotos/fachada-da-torre.webp"
+              poster="/fotos/fachada-da-torre2.webp"
               aria-label="Vídeo tour do apartamento Reino da Inglaterra"
               style={{ borderRadius: "1rem", width: "100%", height: "100%", objectFit: "cover", boxShadow: "0 8px 32px rgba(13,17,23,0.15)" }}
             >
-              <source src="/video/video-do-apartamento.mp4" type="video/mp4" />
+              <source src="/video/video-do-apartamento2.mp4" type="video/mp4" />
               Seu navegador não suporta reprodução de vídeo.
             </video>
           </div>

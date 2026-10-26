@@ -22,7 +22,7 @@ export function ChamadaFinal() {
     >
       {/* Background */}
       <Image
-        src="/fotos/decorado/sala-estar-decorada-sofa-e-tv.png"
+        src="/fotos/decorado/sala-estar-decorada-sofa-e-tv2.png"
         alt="Sala de estar decorada do apartamento Reino da Inglaterra"
         fill
         style={{ objectFit: "cover", objectPosition: "center" }}
