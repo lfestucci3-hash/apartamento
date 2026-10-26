@@ -18,6 +18,10 @@ const faqs = [
     a: "Sim. O apartamento está enquadrado no programa Minha Casa Minha Vida, o que garante condições facilitadas de financiamento, taxas de juros reduzidas e possibilidade de uso de subsídios do governo.",
   },
   {
+    q: "Como funciona o subsídio do Minha Casa Minha Vida?",
+    a: "O subsídio do programa Minha Casa Minha Vida é um desconto do Governo Federal que reduz o valor de compra do imóvel, deixando o financiamento e as parcelas mais baratos. Esse dinheiro vai direto para o banco e você nunca precisa devolvê-lo.\n\n\n Quem é elegível (Critérios)\n\n• Renda familiar: Famílias com renda bruta mensal de até R$ 5.000.\n\n• Primeiro imóvel: O comprador não pode ter nenhum imóvel residencial próprio em seu nome.\n\n• Financiamento: O cadastro precisa ser aprovado na análise de crédito da Caixa Econômica Federal.\n\n• Restrições: Não é permitido ter o nome negativado (CPF com restrição em órgãos de proteção ao crédito).",
+  },
+  {
     q: "A documentação está regularizada?",
     a: "Sim. Toda a documentação está 100% em dia — matrícula, IPTU, condomínio e escritura. O imóvel está pronto para ser transferido sem nenhuma pendência.",
   },
