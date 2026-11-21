@@ -46,7 +46,7 @@ const conditions = [
   {
     icon: TrendingDown,
     title: "Abaixo do valor de mercado",
-    desc: "Imóveis semelhantes avaliados em R$ 210.000. Economia real de R$ 20.000.",
+    desc: "Imóveis semelhantes avaliados em R$ 195.000. Economia real de R$ 15.000.",
     highlight: true,
   },
 ];

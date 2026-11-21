@@ -60,7 +60,7 @@ const jsonLd = {
   image: "https://apartamentoribeirao.site/fotos/fachada-da-torre2.webp",
   offers: {
     "@type": "Offer",
-    price: "190000",
+    price: "180000",
     priceCurrency: "BRL",
     availability: "https://schema.org/InStock",
   },

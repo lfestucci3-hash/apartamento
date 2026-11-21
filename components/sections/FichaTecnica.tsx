@@ -20,11 +20,11 @@ const specs = [
   { icon: Bath, label: "Banheiros", value: "1 banheiro" },
   { icon: Car, label: "Garagem", value: "1 vaga coberta" },
   { icon: Building, label: "Andar", value: "2º andar" },
-  { icon: PackageCheck, label: "Condomínio", value: "R$ 430/mês" },
+  { icon: PackageCheck, label: "Condomínio", value: "R$ 430/mês (água e gás inclusos)" },
 ];
 
 const acabamentos = [
-  { icon: Layers, label: "Piso porcelanato na sala e cozinha" },
+  { icon: Layers, label: "Pisos novos na sala e cozinha" },
   { icon: Lightbulb, label: "Iluminação 100% em LED" },
   { icon: ChefHat, label: "Armários planejados na cozinha" },
   { icon: ChefHat, label: "Armário planejado na lavanderia" },

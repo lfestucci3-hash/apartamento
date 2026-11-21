@@ -174,7 +174,7 @@ export function Gallery() {
               aria-label="Vídeo tour do apartamento Reino da Inglaterra"
               style={{ borderRadius: "1rem", width: "100%", height: "100%", objectFit: "cover", boxShadow: "0 8px 32px rgba(13,17,23,0.15)" }}
             >
-              <source src="/video/video-do-apartamento2.mp4" type="video/mp4" />
+              <source src="/video/ad2.mp4" type="video/mp4" />
               Seu navegador não suporta reprodução de vídeo.
             </video>
           </div>

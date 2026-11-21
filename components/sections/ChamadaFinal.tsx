@@ -167,7 +167,7 @@ export function ChamadaFinal() {
             Valor do imóvel
           </div>
           <div style={{ fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 800, letterSpacing: "-0.02em" }}>
-            R$ 190.000
+            R$ 180.000
           </div>
         </motion.div>
 

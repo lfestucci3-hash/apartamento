@@ -22,17 +22,17 @@ const diferenciais = [
   {
     icon: MapPin,
     title: "Excelente Localização",
-    desc: "Ao lado do Novo Shopping e de bairros nobres da cidade: Ribeirânia, City Ribeirão, Jardim Botânico. Próximo de atacadistas, hospitais, escolas e acesso rápido para as principais avenidas.",
+    desc: "Ao lado do Novo Shopping e próximo de Assaí, Paulistão, Savegnago, faculdades, escolas e hospitais.",
   },
   {
     icon: Home,
     title: "Planta bem distribuída",
-    desc: "43 m² aproveitados com inteligência. Sala integrada, dois quartos e banheiro.",
+    desc: "43 m² aproveitados com inteligência. Sala integrada, dois quartos e 1 banheiro.",
   },
   {
     icon: Layers,
     title: "Piso Novinho",
-    desc: "Piso porcelanato na sala e cozinha.",
+    desc: "Piso elegante acetinado novo na sala e cozinha.",
   },
   {
     icon: ChefHat,
