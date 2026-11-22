@@ -150,7 +150,7 @@ export function Hero() {
               color: "white",
             }}
           >
-            R$ 180.000
+            R$ 175.000
           </div>
           {/* Savings badge */}
           <div
@@ -168,7 +168,7 @@ export function Hero() {
             }}
           >
             <TrendingDown size={14} aria-hidden="true" />
-            R$ 15.000 abaixo do valor de mercado
+            R$ 20.000 abaixo do valor de mercado
           </div>
           <div style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.45)" }}>
             Imóveis semelhantes avaliados em R$ 195.000
