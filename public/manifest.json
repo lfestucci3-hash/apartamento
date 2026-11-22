@@ -6,11 +6,4 @@
   "display": "standalone",
   "background_color": "#0D1117",
   "theme_color": "#0D1117",
-  "icons": [
-    {
-      "src": "/favicon_logo_on_a_dark.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
-    }
-  ]
 }
